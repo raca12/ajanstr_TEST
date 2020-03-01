@@ -1,0 +1,49 @@
+#categorydiv div.tabs-panel .selectit:hover{background:#ccc;}
+
+#footer{ visibility:hidden !important}
+
+#wphead #header-logo,#favorite-actions,#contextual-help-link-wrap,#screen-options-link-wrap{ display:none !important}
+
+#menu-dashboard li{ display:none;}
+
+#adminmenu #menu-links,
+
+#visibility,
+
+#toplevel_page_edit-post_type-acf,
+
+#adminmenu #menu-comments,
+
+/*#adminmenu #menu-pages*/
+
+#adminmenu #menu-users,
+
+#adminmenu #menu-appearance,
+
+#adminmenu #menu-plugins,
+
+#adminmenu #menu-users .wp-first-item,
+
+#adminmenu #menu-tools,
+
+
+
+#adminmenu #menu-settings, #wp-admin-bar-updraft_admin_node{ display:none !important}
+
+#update-nag, .update-nag, #contextual-help-link-wrap, #toplevel_page_edit-post_type-acf-field-group{ display:none;}
+
+#toplevel_page_WP-Optimize, #wp-admin-bar-wp-logo, #wp-admin-bar-new-content, #wp-admin-bar-comments, #commentstatusdiv, #wp-admin-bar-edit-profile, #wpfooter, #footer-thankyou, #toplevel_page_edit-post_type-cptm, #menu-dashboard, .wp-menu-separator, #menu-posts{display:none !important} 
+
+
+
+#the-list #user-1, #toplevel_page_edit-post_type-acf-field-group, #toplevel_page_edit-post_type-cptm{display:none}
+
+.column-stokEkleme{width:70px; text-align:center}
+	.column-stokEkleme span{border-radius:5px; padding:10px; color:#FFFFFF; display:inline-block; text-align:center; white-space:nowrap}
+
+#post_name, #page_template, #menu_order, #parent_id{width: 100%}
+#pageparentdiv p:last-child{display: none}
+#slugdiv .hndle span{display: none}
+#slugdiv .hndle:before{content:"SAYFA URL ADRESI" !important; }
+#the-list #user-1{display:none}
+.acf-hndle-cog{display:none !important}

@@ -1,0 +1,95 @@
+.masterTooltipSCL {display:none;position:absolute; background-color:#000;padding:5px 15px;color:#fff; font-size:11px; font-family:'Open Sans', Tahoma, Geneva, sans-serif; font-size:13px;-webkit-box-shadow: 4px 3px 5px 0px rgba(50, 50, 50, 0.36);-moz-box-shadow:    4px 3px 5px 0px rgba(50, 50, 50, 0.36);box-shadow:         4px 3px 5px 0px rgba(50, 50, 50, 0.36);}
+	.masterTooltipSCL span{background:url(../images/sol_arrow.png) no-repeat left; position:absolute; margin:-3px 0 0 -25px; display:inline-block; width:16px; height:17px;}
+
+.plusminusunit{white-space: nowrap}
+.plusminusunit span, .plusminusunit .input{-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.plusminusunit .input{font-size:20px; padding:10px; border:1px solid #f1f1f1}
+.eksiEkle, .artiEkle{display:inline-block; padding:3px 0; text-align:center; width:15px; font-weight:bold;  font-size:12px; font-family:Tahoma, Geneva, sans-serif; cursor:pointer; background:#000; color:#fff; text-shadow:none}
+
+
+
+#alertS{position:absolute; padding:30px; background:#e86848; color:#FFF; font-weight:bold; width:500px; left:50%; top:175px; margin-left:-250px; text-align:center; z-index:99999999999999999; text-shadow:none; border-radius:5px; font-size:20px;}
+
+.alertSil{ margin:10px 0; text-align:center !important; font-size:24px}
+
+.alert1{background:#fff6bf; border:2px solid #ffd324; padding:10px; color:#514721; margin-bottom:10px}	
+
+.alert1H{background:#ffd324; padding:15px; color:#514721; margin:0; text-align:center; font-size:25px; font-weight:normal}	
+
+.alert2{background:#e6efc2; border:2px solid #c6d880; padding:10px; color:#264409; margin-bottom:10px}
+
+.alert21{background:#b1bb88; border:2px solid #94a25b; padding:10px; color:#264409; margin-bottom:10px}
+
+.alert3{background:#fbe3e4; border:2px solid #fbc2c4; padding:10px; color:#8a1f11; margin-bottom:10px}	
+
+.alert4{background:#d5edf8; border:2px solid #92cae4; padding:10px; color:#205791; margin-bottom:10px}	
+
+.alert5{background:red; border:2px solid red; padding:10px; color:#fff; margin-bottom:10px}	
+
+#alert{display:none; position:absolute; padding:20px; background:#F60; color:#FFF; font-weight:bold; width:280px; left:50%; top:175px; margin-left:-200px; text-align:center; z-index:999; text-shadow:none; border-radius:7px; font-size:18px;  box-shadow:0px 0px 10px #000; line-height:25px; font-family: Arial, Helvetica, sans-serif}
+
+#alert strong{font-size:25px}
+
+
+
+/* login */
+#loginDIV{width:350px; box-sizing:border-box; display:none; padding:15px;background-size: cover}
+#loginDIV form{ width:100%;}
+		.lInput{ width:100%; border:1px solid #f1f1f1; padding:15px; font-size:15px; margin:0 0 10px 0; box-sizing:border-box !important}
+		#loginDIV #kullaniciadi{}
+		#loginDIV #sifre{}
+		#loginDIV #sifremiunut{}
+		#loginDIV #kayit_button{}
+		#loginDIV #submit{ background:#000000; display:block; border:0; color:#FFFFFF; padding:13px 0; font-size:15px; width:100%; font-weight:bold; cursor:pointer; margin:0 0 5px 0}
+		#loginGiris{}
+
+#kayitDIV{padding:0 0 0 10px}
+.loginSocialButton{float:left; width:49%; display:inline-block; text-align:center; color:#FFFFFF; padding:10px 0; font-size:13px; margin-top:5px}
+.loginSocialButton i{font-size:20px}
+.loginSocialButton:nth-child(odd){margin-left:2%}
+.loginSocialButton:hover{color:#FFFFFF; opacity:0.5}
+
+		#kkBa{background:#FFFFFF; padding:25px}
+
+		#kkBa td{vertical-align:top !important}
+
+		.kisaBilgi tr td:first-child{ font-weight:bold}
+
+		.kisaBilgi tr td{font-size:15px; border-bottom:1px solid #EAEAEA;; padding:5px}
+
+		.taksitList{border:0; padding:0; width:100%}
+
+		.taksitList th{background:#2c88c5; color:#FFF;; font-size:13px; padding:5px;}
+
+		.taksitList td{ vertical-align:middle;background:#d6dfcf; padding:4px; border-bottom:1px solid #fff}
+
+		.taksitList tr td ~ td{background:#ecebea;}
+
+		.taksitList .tr_hoverS:hover td{background:#001e41 !important; color:#fff !important}
+
+		.tBuyuk, .tAy{font-weight:bold; color:#000; background:#acc1a2 !important;}	
+
+		.tAy span{display:inline-block; border-radius:25px; text-align:center; width:25px; line-height:25px; background:#2c88c5; color:#fff; font-size:13px}
+
+
+.lineYatay{border-bottom:1px solid #EAEAEA; margin:10px 0}
+
+
+input[type="checkbox"] {display:none;}
+input[type="checkbox"] + label span {display:inline-block;width:15px;height:15px;margin:-1px 4px 0 0;vertical-align:middle;background:#FFFFFF;border:1px solid #848484;cursor:pointer;}
+input[type="checkbox"] + label{cursor:pointer; color:#288392;  text-shadow:1px 1px 0 #FFFFFF; margin:6px 0}
+input[type="checkbox"]:checked + label span {background:#000; border:3px solid #FFA200;}
+
+input[type="radio"] {display:none;}
+input[type="radio"] + label span {display:inline-block;width:15px;height:15px;margin:0 4px 0 0;vertical-align:middle;background:#FFFFFF;border:1px solid #848484;cursor:pointer; border-radius:15px;}
+input[type="radio"] + label{cursor:pointer; color:#288392;  text-shadow:1px 1px 0 #FFFFFF; margin:6px 0}
+input[type="radio"]:checked + label span {background:#000; border:3px solid #FFA200; width:15px; height:15px}	
+
+					 
+
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, textarea, input:focus, select, button{outline:none}
+
+ 
+
+ 
+ 

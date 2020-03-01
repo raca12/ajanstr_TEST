@@ -1,0 +1,4 @@
+#topBar .router-link-active,
+#topMenu .router-link-active {
+  color: #00aeef;
+}

@@ -1,0 +1,65 @@
+#topMenu ul .active a, #topMenu ul li ul li:hover > a { background:#777 !important; color:#fff; z-index:9999}
+
+
+#topMenu ul ul {
+	display: none;
+	margin: 0;
+	padding: 0 0 0 0;
+	width: 250px;
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	border-top:0;
+	background:#FFF;
+	text-align:left;
+	z-index:99999 !important;
+}
+	/* js ilede acailiyorum */
+#topMenu ul li:hover > ul {
+	z-index:99999 !important;
+	/*display:block;*/
+}
+
+#topMenu ul ul li {
+	float: none;
+	margin: 0;
+	display:block;
+	list-style:none;
+	border-bottom:1px solid rgba(0,0,0,0.04);
+	padding: 0;
+	z-index:99999 !important;
+}
+#topMenu ul ul li a {
+	font-size:17px;
+	font-weight: 400;
+	color:#fff;
+	border:0;
+	text-align:left;
+	padding:12px 20px !important;
+	display:block;
+	z-index:99999 !important;
+}
+	#topMenu ul ul a:hover{z-index:9999 !important}
+
+#topMenu ul ul ul {
+	left: 250px;
+	top: 0px;
+	z-index:99999 !important
+}
+
+
+#topMenu ul ul ul li:hover ul{
+	 display: none !important; visibility: hidden}
+
+
+#topMenu ul ul li:hover > a {background:red; z-index:99999 !important}
+#topMenu ul ul ul li a{ background:#777 !important; z-index:99999 !important; color:#fff !important}
+#topMenu ul ul ul a:hover{background:#650f48 !important;color:#171a63 !important }
+
+	#topMenu ul ul ul li:hover > a {background:#bec0c2 !important;}
+	#topMenu ul ul ul ul li a{ background:#bec0c2 !important; color: #000 !important}
+	#topMenu ul ul ul  ul a:hover{background:#171a63 !important;}
+
+		#topMenu ul ul ul ul li:hover > a {background: rgba(195,195,195,1.00) !important;  color:#000}
+		#topMenu ul ul ul ul ul li a{ background:#000 !important}
+		#topMenu ul ul ul ul  ul a:hover{background:red !important}
